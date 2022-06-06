@@ -1,10 +1,10 @@
 <?php
 
-namespace MoveMoveIo\DaData\Enums;
+namespace ESitchikhinFork\DaData\Enums;
 
 /**
  * Class CompanyScope
- * @package MoveMoveIo\DaData\Enums
+ * @package ESitchikhinFork\DaData\Enums
  */
 class CompanyScope
 {

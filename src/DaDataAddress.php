@@ -1,12 +1,12 @@
 <?php
 
-namespace MoveMoveIo\DaData;
+namespace ESitchikhinFork\DaData;
 
-use MoveMoveIo\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Enums\Language;
 
 /**
  * Class DaDataAddress
- * @package MoveMoveIo\DaData
+ * @package ESitchikhinFork\DaData
  */
 class DaDataAddress extends DaDataService
 {

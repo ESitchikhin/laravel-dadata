@@ -1,8 +1,8 @@
 <?php
 
-namespace MoveMoveIo\DaData\Tests;
+namespace ESitchikhinFork\DaData\Tests;
 
-use MoveMoveIo\DaData\Facades\DaDataEmail;
+use ESitchikhinFork\DaData\Facades\DaDataEmail;
 
 class DaDataPhoneTest extends TestCase
 {

@@ -26,7 +26,7 @@ composer require esitchikhin/laravel-dadata
 ```shell script
 'providers' => [
   // ...
-  MoveMoveIo\DaData\DaDataServiceProvider::class,
+  ESitchikhinFork\DaData\DaDataServiceProvider::class,
 ],
 
 ``` 
@@ -34,7 +34,7 @@ composer require esitchikhin/laravel-dadata
 Публикация конфигурационного файла. Выполните `artisan` команду
 
 ```shell script
-php artisan vendor:publish --provider="MoveMoveIo\DaData\DaDataServiceProvider"
+php artisan vendor:publish --provider="ESitchikhinFork\DaData\DaDataServiceProvider"
 ```
 
 Настройка проекта осществляется через `.env` вашего проекта. Вам необходимо указать три параметра
@@ -103,7 +103,7 @@ DADATA_TIMEOUT=10
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -344,7 +344,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -416,8 +416,8 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Language;
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -659,8 +659,8 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Language;
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -709,7 +709,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -949,7 +949,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1001,7 +1001,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1152,7 +1152,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1205,8 +1205,8 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Language;
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1360,8 +1360,8 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Language;
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1410,8 +1410,8 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Language;
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1532,8 +1532,8 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Language;
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1656,8 +1656,8 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Language;
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Enums\Language;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1800,7 +1800,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -1901,7 +1901,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -2038,7 +2038,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataAddress;
+use ESitchikhinFork\DaData\Facades\DaDataAddress;
 
 /**
  * Class DaData
@@ -2089,7 +2089,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataName;
+use ESitchikhinFork\DaData\Facades\DaDataName;
 
 /**
  * Class DaData
@@ -2180,7 +2180,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataName;
+use ESitchikhinFork\DaData\Facades\DaDataName;
 
 /**
  * Class DaData
@@ -2241,8 +2241,8 @@ class DaData
 Только имена:
 
 ```php
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
 ...
 $data = DaDataName::prompt('Викто', 2, Gender::UNKNOWN, [Parts::NAME]);
 ```
@@ -2250,8 +2250,8 @@ $data = DaDataName::prompt('Викто', 2, Gender::UNKNOWN, [Parts::NAME]);
 Имена и отчества:
 
 ```php
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
 ...
 $data = DaDataName::prompt('Викто', 2, Gender::UNKNOWN, [Parts::NAME, Parts::PATRONYMIC);
 ```
@@ -2259,8 +2259,8 @@ $data = DaDataName::prompt('Викто', 2, Gender::UNKNOWN, [Parts::NAME, Parts
 Имена и фамилии:
 
 ```php
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
 ...
 $data = DaDataName::prompt('Викто', 2, Gender::UNKNOWN, [Parts::NAME, Parts::SURNAME]);
 ```
@@ -2273,9 +2273,9 @@ $data = DaDataName::prompt('Викто', 2, Gender::UNKNOWN, [Parts::NAME, Parts
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
-use MoveMoveIo\DaData\Facades\DaDataName;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Facades\DaDataName;
 
 /**
  * Class DaData
@@ -2369,9 +2369,9 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
-use MoveMoveIo\DaData\Facades\DaDataName;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Facades\DaDataName;
 
 /**
  * Class DaData
@@ -2423,7 +2423,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataEmail;
+use ESitchikhinFork\DaData\Facades\DaDataEmail;
 
 /**
  * Class DaData
@@ -2509,7 +2509,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataEmail;
+use ESitchikhinFork\DaData\Facades\DaDataEmail;
 
 /**
  * Class DaData
@@ -2569,7 +2569,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataEmail;
+use ESitchikhinFork\DaData\Facades\DaDataEmail;
 
 /**
  * Class DaData
@@ -2662,7 +2662,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataEmail;
+use ESitchikhinFork\DaData\Facades\DaDataEmail;
 
 /**
  * Class DaData
@@ -2716,7 +2716,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataPhone;
+use ESitchikhinFork\DaData\Facades\DaDataPhone;
 
 /**
  * Class DaData
@@ -2817,7 +2817,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataPhone;
+use ESitchikhinFork\DaData\Facades\DaDataPhone;
 
 /**
  * Class DaData
@@ -2860,9 +2860,9 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\BranchType;
-use MoveMoveIo\DaData\Enums\CompanyType;
-use MoveMoveIo\DaData\Facades\DaDataCompany;
+use ESitchikhinFork\DaData\Enums\BranchType;
+use ESitchikhinFork\DaData\Enums\CompanyType;
+use ESitchikhinFork\DaData\Facades\DaDataCompany;
 
 /**
  * Class DaData
@@ -3183,9 +3183,9 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\BranchType;
-use MoveMoveIo\DaData\Enums\CompanyType;
-use MoveMoveIo\DaData\Facades\DaDataCompany;
+use ESitchikhinFork\DaData\Enums\BranchType;
+use ESitchikhinFork\DaData\Enums\CompanyType;
+use ESitchikhinFork\DaData\Facades\DaDataCompany;
 
 /**
  * Class DaData
@@ -3244,9 +3244,9 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\CompanyStatus;
-use MoveMoveIo\DaData\Enums\CompanyType;
-use MoveMoveIo\DaData\Facades\DaDataCompany;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyType;
+use ESitchikhinFork\DaData\Facades\DaDataCompany;
 
 /**
  * Class DaData
@@ -3287,7 +3287,7 @@ class DaData
  
 ```php
 ...
-use MoveMoveIo\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
 ...
 $status = [
     CompanyStatus::ACTIVE
@@ -3297,7 +3297,7 @@ $status = [
 Поиск только среди ликвидируемых и ликвидированных компаний:
 ```php
 ...
-use MoveMoveIo\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
 ...
 $status = [
     CompanyStatus::LIQUIDATING,
@@ -3310,7 +3310,7 @@ $status = [
 Тип поиска только по юридическим лицам
 ```php
 ...
-use MoveMoveIo\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
 ...
 $type = CompanyStatus::LEGAL;
 ```
@@ -3318,7 +3318,7 @@ $type = CompanyStatus::LEGAL;
 Тип поиска только по индивидуальным предпринимателям
 ```php
 ...
-use MoveMoveIo\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
 ...
 $type = CompanyStatus::INDIVIDUAL;
 ```
@@ -3520,9 +3520,9 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\CompanyStatus;
-use MoveMoveIo\DaData\Enums\CompanyType;
-use MoveMoveIo\DaData\Facades\DaDataCompany;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyType;
+use ESitchikhinFork\DaData\Facades\DaDataCompany;
 
 /**
  * Class DaData
@@ -3567,8 +3567,8 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\CompanyScope;
-use MoveMoveIo\DaData\Facades\DaDataCompany;
+use ESitchikhinFork\DaData\Enums\CompanyScope;
+use ESitchikhinFork\DaData\Facades\DaDataCompany;
 
 /**
  * Class DaData
@@ -3629,8 +3629,8 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\CompanyScope;
-use MoveMoveIo\DaData\Facades\DaDataCompany;
+use ESitchikhinFork\DaData\Enums\CompanyScope;
+use ESitchikhinFork\DaData\Facades\DaDataCompany;
 
 /**
  * Class DaData
@@ -3679,7 +3679,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataBank;
+use ESitchikhinFork\DaData\Facades\DaDataBank;
 
 /**
  * Class DaData
@@ -3881,7 +3881,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataBank;
+use ESitchikhinFork\DaData\Facades\DaDataBank;
 
 /**
  * Class DaData
@@ -3932,9 +3932,9 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\BankStatus;
-use MoveMoveIo\DaData\Enums\BankType;
-use MoveMoveIo\DaData\Facades\DaDataBank;
+use ESitchikhinFork\DaData\Enums\BankStatus;
+use ESitchikhinFork\DaData\Enums\BankType;
+use ESitchikhinFork\DaData\Facades\DaDataBank;
 
 /**
  * Class DaData
@@ -3975,7 +3975,7 @@ class DaData
  
 ```php
 ...
-use MoveMoveIo\DaData\Enums\BankStatus;
+use ESitchikhinFork\DaData\Enums\BankStatus;
 ...
 $status = [
     BankStatus::ACTIVE
@@ -3985,7 +3985,7 @@ $status = [
 Поиск только среди ликвидируемых и ликвидированных банков:
 ```php
 ...
-use MoveMoveIo\DaData\Enums\BankStatus;
+use ESitchikhinFork\DaData\Enums\BankStatus;
 ...
 $status = [
     BankStatus::LIQUIDATING,
@@ -3994,7 +3994,7 @@ $status = [
 ```
 
 **Формирование `type` - Ограничение по типу банка.**
-Доступные типы организаций в классе `MoveMoveIo\DaData\Enums\BankType`
+Доступные типы организаций в классе `ESitchikhinFork\DaData\Enums\BankType`
 
 | **Тип**                 | **Тип организации**                               |
 |:------------------------|:--------------------------------------------------|
@@ -4009,7 +4009,7 @@ $status = [
                  
 ```php
 ...
-use MoveMoveIo\DaData\Enums\BankType;
+use ESitchikhinFork\DaData\Enums\BankType;
 ...
 $type = [BankType::BANK, BankType::BANK_BRANCH]
 ```
@@ -4017,7 +4017,7 @@ $type = [BankType::BANK, BankType::BANK_BRANCH]
 Тип поиска только по РКЦ/ГРКЦ 
 ```php
 ...
-use MoveMoveIo\DaData\Enums\BankType;
+use ESitchikhinFork\DaData\Enums\BankType;
 ...
 $type = [BankType::BANK, BankType::RKC]
 ```
@@ -4193,9 +4193,9 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Enums\BankStatus;
-use MoveMoveIo\DaData\Enums\BankType;
-use MoveMoveIo\DaData\Facades\DaDataBank;
+use ESitchikhinFork\DaData\Enums\BankStatus;
+use ESitchikhinFork\DaData\Enums\BankType;
+use ESitchikhinFork\DaData\Facades\DaDataBank;
 
 /**
  * Class DaData
@@ -4239,7 +4239,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataPassport;
+use ESitchikhinFork\DaData\Facades\DaDataPassport;
 
 /**
  * Class DaData
@@ -4322,7 +4322,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataPassport;
+use ESitchikhinFork\DaData\Facades\DaDataPassport;
 
 /**
  * Class DaData
@@ -4363,7 +4363,7 @@ class DaData
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataPassport;
+use ESitchikhinFork\DaData\Facades\DaDataPassport;
 
 /**
  * Class DaData
@@ -4459,7 +4459,7 @@ array:1 [
 
 namespace App;
 
-use MoveMoveIo\DaData\Facades\DaDataPassport;
+use ESitchikhinFork\DaData\Facades\DaDataPassport;
 
 /**
  * Class DaData

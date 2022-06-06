@@ -1,13 +1,13 @@
 <?php
 
-namespace MoveMoveIo\DaData;
+namespace ESitchikhinFork\DaData;
 
-use MoveMoveIo\DaData\Providers\CleanerDaDataProvider;
-use MoveMoveIo\DaData\Providers\SuggestDaDataProvider;
+use ESitchikhinFork\DaData\Providers\CleanerDaDataProvider;
+use ESitchikhinFork\DaData\Providers\SuggestDaDataProvider;
 
 /**
  * Class DaDataService
- * @package MoveMoveIo\DaData
+ * @package ESitchikhinFork\DaData
  */
 class DaDataService
 {
