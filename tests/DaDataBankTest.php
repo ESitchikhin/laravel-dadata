@@ -1,14 +1,14 @@
 <?php
 
-namespace MoveMoveIo\DaData\Tests;
+namespace ESitchikhinFork\DaData\Tests;
 
-use MoveMoveIo\DaData\Enums\BankStatus;
-use MoveMoveIo\DaData\Enums\BankType;
-use MoveMoveIo\DaData\Facades\DaDataBank;
+use ESitchikhinFork\DaData\Enums\BankStatus;
+use ESitchikhinFork\DaData\Enums\BankType;
+use ESitchikhinFork\DaData\Facades\DaDataBank;
 
 /**
  * Class DaDataBankTest
- * @package MoveMoveIo\DaData\Tests
+ * @package ESitchikhinFork\DaData\Tests
  */
 class DaDataBankTest extends TestCase
 {

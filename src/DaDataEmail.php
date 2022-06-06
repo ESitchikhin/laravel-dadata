@@ -1,10 +1,10 @@
 <?php
 
-namespace MoveMoveIo\DaData;
+namespace ESitchikhinFork\DaData;
 
 /**
  * Class DaDataEmail
- * @package MoveMoveIo\DaData
+ * @package ESitchikhinFork\DaData
  */
 class DaDataEmail extends DaDataService
 {

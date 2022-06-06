@@ -1,6 +1,6 @@
 <?php
 
-namespace MoveMoveIo\DaData\Enums;
+namespace ESitchikhinFork\DaData\Enums;
 
 /**
  * Class CompanyStatus

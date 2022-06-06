@@ -1,14 +1,14 @@
 <?php
 
-namespace MoveMoveIo\DaData\Facades;
+namespace ESitchikhinFork\DaData\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class DaDataPassport
- * @package MoveMoveIo\DaData\Facades
- * @method \MoveMoveIo\DaData\DaDataPassport standardization(string $id)
- * @method \MoveMoveIo\DaData\DaDataPassport fms(string $passport, int $count)
+ * @package ESitchikhinFork\DaData\Facades
+ * @method \ESitchikhinFork\DaData\DaDataPassport standardization(string $id)
+ * @method \ESitchikhinFork\DaData\DaDataPassport fms(string $passport, int $count)
  */
 class DaDataPassport extends Facade
 {

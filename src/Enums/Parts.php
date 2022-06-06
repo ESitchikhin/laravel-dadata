@@ -1,10 +1,10 @@
 <?php
 
-namespace MoveMoveIo\DaData\Enums;
+namespace ESitchikhinFork\DaData\Enums;
 
 /**
  * Class Parts
- * @package MoveMoveIo\DaData\Enums
+ * @package ESitchikhinFork\DaData\Enums
  */
 class Parts
 {

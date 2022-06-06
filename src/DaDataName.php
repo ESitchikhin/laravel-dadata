@@ -1,13 +1,13 @@
 <?php
 
-namespace MoveMoveIo\DaData;
+namespace ESitchikhinFork\DaData;
 
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
 
 /**
  * Class DaDataName
- * @package MoveMoveIo\DaData
+ * @package ESitchikhinFork\DaData
  */
 class DaDataName extends DaDataService
 {
