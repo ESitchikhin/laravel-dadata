@@ -29,7 +29,7 @@ class DaDataCompany extends DaDataService
                        int $count = 10,
                        string $kpp = null,
                        int $branch_type = BranchType::MAIN,
-                       int $type = CompanyType::LEGAL
+                       int $type = null
     ) : array
     {
         return $this->suggestApi()->post('rs/findById/party', [
