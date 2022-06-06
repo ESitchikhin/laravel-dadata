@@ -1,14 +1,14 @@
 <?php
 
-namespace MoveMoveIo\DaData\Tests;
+namespace ESitchikhinFork\DaData\Tests;
 
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
-use MoveMoveIo\DaData\Facades\DaDataName;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Facades\DaDataName;
 
 /**
  * Class DaDataNameTest
- * @package MoveMoveIo\DaData\Tests
+ * @package ESitchikhinFork\DaData\Tests
  */
 class DaDataNameTest extends TestCase
 {

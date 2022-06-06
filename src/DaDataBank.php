@@ -1,14 +1,14 @@
 <?php
 
-namespace MoveMoveIo\DaData;
+namespace ESitchikhinFork\DaData;
 
-use MoveMoveIo\DaData\Enums\BankStatus;
-use MoveMoveIo\DaData\Enums\BankType;
-use MoveMoveIo\DaData\Enums\CompanyType;
+use ESitchikhinFork\DaData\Enums\BankStatus;
+use ESitchikhinFork\DaData\Enums\BankType;
+use ESitchikhinFork\DaData\Enums\CompanyType;
 
 /**
  * Class DaDataBank
- * @package MoveMoveIo\DaData
+ * @package ESitchikhinFork\DaData
  */
 class DaDataBank extends DaDataService
 {

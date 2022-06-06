@@ -1,12 +1,12 @@
 <?php
 
-namespace MoveMoveIo\DaData\Tests;
+namespace ESitchikhinFork\DaData\Tests;
 
-use MoveMoveIo\DaData\Facades\DaDataEmail;
+use ESitchikhinFork\DaData\Facades\DaDataEmail;
 
 /**
  * Class DaDataEmailTest
- * @package MoveMoveIo\DaData\Tests
+ * @package ESitchikhinFork\DaData\Tests
  */
 class DaDataEmailTest extends TestCase
 {

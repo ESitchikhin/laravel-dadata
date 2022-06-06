@@ -1,15 +1,15 @@
 <?php
 
-namespace MoveMoveIo\DaData;
+namespace ESitchikhinFork\DaData;
 
-use MoveMoveIo\DaData\Enums\BranchType;
-use MoveMoveIo\DaData\Enums\CompanyScope;
-use MoveMoveIo\DaData\Enums\CompanyStatus;
-use MoveMoveIo\DaData\Enums\CompanyType;
+use ESitchikhinFork\DaData\Enums\BranchType;
+use ESitchikhinFork\DaData\Enums\CompanyScope;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyType;
 
 /**
  * Class DaDataPhone
- * @package MoveMoveIo\DaData
+ * @package ESitchikhinFork\DaData
  */
 class DaDataCompany extends DaDataService
 {

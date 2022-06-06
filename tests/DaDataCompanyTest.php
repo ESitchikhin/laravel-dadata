@@ -1,15 +1,15 @@
 <?php
 
-namespace MoveMoveIo\DaData\Tests;
+namespace ESitchikhinFork\DaData\Tests;
 
-use MoveMoveIo\DaData\Enums\BranchType;
-use MoveMoveIo\DaData\Enums\CompanyStatus;
-use MoveMoveIo\DaData\Enums\CompanyType;
-use MoveMoveIo\DaData\Facades\DaDataCompany;
+use ESitchikhinFork\DaData\Enums\BranchType;
+use ESitchikhinFork\DaData\Enums\CompanyStatus;
+use ESitchikhinFork\DaData\Enums\CompanyType;
+use ESitchikhinFork\DaData\Facades\DaDataCompany;
 
 /**
  * Class DaDataCompanyTest
- * @package MoveMoveIo\DaData\Tests
+ * @package ESitchikhinFork\DaData\Tests
  */
 class DaDataCompanyTest extends TestCase
 {

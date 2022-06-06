@@ -1,15 +1,15 @@
 <?php
 
-namespace MoveMoveIo\DaData\Tests;
+namespace ESitchikhinFork\DaData\Tests;
 
-use MoveMoveIo\DaData\Enums\Gender;
-use MoveMoveIo\DaData\Enums\Parts;
-use MoveMoveIo\DaData\Facades\DaDataName;
-use MoveMoveIo\DaData\Facades\DaDataPassport;
+use ESitchikhinFork\DaData\Enums\Gender;
+use ESitchikhinFork\DaData\Enums\Parts;
+use ESitchikhinFork\DaData\Facades\DaDataName;
+use ESitchikhinFork\DaData\Facades\DaDataPassport;
 
 /**
  * Class DaDataPassportTest
- * @package MoveMoveIo\DaData\Tests
+ * @package ESitchikhinFork\DaData\Tests
  */
 class DaDataPassportTest extends TestCase
 {

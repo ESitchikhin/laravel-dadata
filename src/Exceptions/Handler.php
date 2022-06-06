@@ -1,6 +1,6 @@
 <?php
 
-namespace MoveMoveIo\DaData\Exceptions;
+namespace ESitchikhinFork\DaData\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 

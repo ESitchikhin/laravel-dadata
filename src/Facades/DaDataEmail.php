@@ -1,14 +1,14 @@
 <?php
 
-namespace MoveMoveIo\DaData\Facades;
+namespace ESitchikhinFork\DaData\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class DaDataEmail
- * @package MoveMoveIo\DaData\Facades
- * @method \MoveMoveIo\DaData\DaDataEmail standardization(string $email)
- * @method \MoveMoveIo\DaData\DaDataEmail prompt(string $email, int $count)
+ * @package ESitchikhinFork\DaData\Facades
+ * @method \ESitchikhinFork\DaData\DaDataEmail standardization(string $email)
+ * @method \ESitchikhinFork\DaData\DaDataEmail prompt(string $email, int $count)
  */
 class DaDataEmail extends Facade
 {

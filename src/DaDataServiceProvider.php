@@ -1,12 +1,12 @@
 <?php
 
-namespace MoveMoveIo\DaData;
+namespace ESitchikhinFork\DaData;
 
 use Carbon\Laravel\ServiceProvider;
 
 /**
  * Class DaDataServiceProvider
- * @package MoveMoveIo\DaData
+ * @package ESitchikhinFork\DaData
  */
 class DaDataServiceProvider extends ServiceProvider
 {

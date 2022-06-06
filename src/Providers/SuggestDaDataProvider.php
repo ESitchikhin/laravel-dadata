@@ -1,10 +1,10 @@
 <?php
 
-namespace MoveMoveIo\DaData\Providers;
+namespace ESitchikhinFork\DaData\Providers;
 
 /**
  * Class SuggestDaDataProvider
- * @package MoveMoveIo\DaData\Providers
+ * @package ESitchikhinFork\DaData\Providers
  */
 class SuggestDaDataProvider
 {
